@@ -234,8 +234,39 @@ img[tabindex="0"]:focus ~ * {
 	font:  1vw/1vw 'Russo One', sans-serif;
 }
 
+.block1{
+	background: #E6E6FA; 
+	border-radius: 7px;
+	border: outset;
+	border-color: black;
+	display: table;
+	padding: 10px;
+	float: left;
+	margin: 1.5%;
+}
+
+.block1 p{
+	text-align: center;
+	font:  1vw/1vw 'Russo One', sans-serif;
+}
+
 #pictureInBlock{
 	width: 25vw;
+	height: 25vw;
+	display: table;
+	border-radius: 20px;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.pictureInBlock1{
+width: 25vw;
 	height: 25vw;
 	display: table;
 	border-radius: 20px;
@@ -559,7 +590,10 @@ background: #FF7F50;
 	text-align: left;
 	font:  4vw/4vw 'Russo One', sans-serif;
 }
-
+.block1 p{
+	text-align: center;
+	font:  4vw/4vw 'Russo One', sans-serif;
+}
 
 /**Увеличение картинки**/
 img[tabindex="0"] {
