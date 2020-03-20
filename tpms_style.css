@@ -73,7 +73,7 @@ label:hover{
 }
 
 
-@media screen and (max-width: 1620px) {
+@media screen and (max-width: 1220px) {
     
    aside, section{
    	display: none
@@ -303,10 +303,20 @@ font-size: 1.5vw;
 	width: 58%;
 }
 
+ @media screen and (max-width: 1620px){ 
 
+aside{
+   	display: none
+   }
+   section {
+    width: 100%;}
+aside {
+    width: 0%;}
+
+ }
 /*Экран до 1620*/
 
- @media screen and (max-width: 1620px){ 	
+ @media screen and (max-width: 1220px){ 	
 .header {
 	display: inline-block;
 	background: rgba(0, 0, 0, 0.7); 
